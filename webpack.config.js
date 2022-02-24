@@ -1,7 +1,7 @@
 const path=require("path");
 module.exports={
     //mode
-    mode:"production", //預設值: production
+    mode:"production", //上線模式: production; 開發模式:development
     //entry
     entry:"./src/index.js",
     //output

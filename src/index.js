@@ -11,8 +11,10 @@
 // import data, {x, y} from "./lib.js";
 // console.log(data, x, y);
 // 載入自己建立的函式庫模組
-import lib from "./lib.js"
+import lib from "./lib.js";
 let result=lib.add(3, 4);
 console.log(result);
 result=lib.multply(3, 4);
 console.log(result);
+import {pi} from "./lib.js";
+console.log(pi);

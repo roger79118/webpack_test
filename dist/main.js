@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib.js */ \"./src/lib.js\");\n// 主程式\r\n// 載入模組\r\n// import \"./lib.js\";\r\n// 載入模組輸出的資料\r\n// import {x, y} from \"./lib.js\";\r\n// console.log(x, y);\r\n// 載入模組預設輸出的資料\r\n// import data from \"./lib.js\";\r\n// console.log(data);\r\n// 混合使用\r\n// import data, {x, y} from \"./lib.js\";\r\n// console.log(data, x, y);\r\n// 載入自己建立的函式庫模組\r\n\r\nlet result=_lib_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].add(3, 4);\r\nconsole.log(result);\r\nresult=_lib_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].multply(3, 4);\r\nconsole.log(result);\n\n//# sourceURL=webpack://webpack_test/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib.js */ \"./src/lib.js\");\n// 主程式\r\n// 載入模組\r\n// import \"./lib.js\";\r\n// 載入模組輸出的資料\r\n// import {x, y} from \"./lib.js\";\r\n// console.log(x, y);\r\n// 載入模組預設輸出的資料\r\n// import data from \"./lib.js\";\r\n// console.log(data);\r\n// 混合使用\r\n// import data, {x, y} from \"./lib.js\";\r\n// console.log(data, x, y);\r\n// 載入自己建立的函式庫模組\r\n\r\nlet result=_lib_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].add(3, 4);\r\nconsole.log(result);\r\nresult=_lib_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].multply(3, 4);\r\nconsole.log(result);\r\n\r\nconsole.log(_lib_js__WEBPACK_IMPORTED_MODULE_0__.pi);\n\n//# sourceURL=webpack://webpack_test/./src/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// let x=3;\r\n// let y=4;\r\n// let data=x*y;\r\n//console.log(data);\r\n//export {x, y};\r\n//export default data;\r\n// export {data as default, x, y};\r\n\r\nconst lib={\r\n    add:function(n1, n2){\r\n        return n1+n2;\r\n    },\r\n    multply:function (n1, n2) {\r\n        return n1*n2;\r\n    }\r\n};\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (lib);\n\n//# sourceURL=webpack://webpack_test/./src/lib.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ lib),\n/* harmony export */   \"pi\": () => (/* binding */ pi)\n/* harmony export */ });\n// let x=3;\r\n// let y=4;\r\n// let data=x*y;\r\n//console.log(data);\r\n//export {x, y};\r\n//export default data;\r\n// export {data as default, x, y};\r\n\r\nconst lib={\r\n    add:function(n1, n2){\r\n        return n1+n2;\r\n    },\r\n    multply:function (n1, n2) {\r\n        return n1*n2;\r\n    }\r\n};\r\nconst pi=3.14\r\n\n\n//# sourceURL=webpack://webpack_test/./src/lib.js?");
 
 /***/ })
 

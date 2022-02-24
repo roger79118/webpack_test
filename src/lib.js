@@ -14,4 +14,5 @@ const lib={
         return n1*n2;
     }
 };
-export default lib;
+const pi=3.14
+export {lib as default, pi};

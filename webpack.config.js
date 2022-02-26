@@ -9,6 +9,15 @@ module.exports={
         filename:"main.js",
         path:path.resolve(__dirname, "dist")
     },
+    //DevServer
+    devServer:{
+        static:"./dist",
+        open: {
+            app: {
+                name: "chrome",
+            },
+        },
+    },
     //module loading
     module:{
         rules:[

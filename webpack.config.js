@@ -8,5 +8,20 @@ module.exports={
     output:{
         filename:"main.js",
         path:path.resolve(__dirname, "dist")
+    },
+    //module loading
+    module:{
+        rules:[
+            //CSS rule
+            // { 
+            //     test:/\.css$/i,
+            //     use:["style-loader", "css-loader"]
+            // }
+            //SASS rule
+            { 
+                test:/\.scss$/i,
+                use:["style-loader", "css-loader", "sass-loader"]
+            }
+        ]
     }
 };
